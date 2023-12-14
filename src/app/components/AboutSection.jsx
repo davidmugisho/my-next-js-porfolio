@@ -58,17 +58,22 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.jpeg" width={500} height={500} />
+        <Image
+          src="/images/about-image.jpeg"
+          width={500}
+          height={500}
+          alt="picture of my defense"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold  text-blue-500 mb-4">About Me</h2>
           <p className="text-base  lg:text-lg">
-            I'm a passionate and adept developer specializing in crafting and
+            I m a passionate and adept developer specializing in crafting and
             seamlessly integrating APIs for high-scale web2/web3 frontend
             applications. With a solid background in agile frameworks, I thrive
             in collaborative environments and bring extensive experience to the
             table. My forte lies in delivering innovative software solutions
             that exceed expectations while maintaining a user-centric approach.
-            Beyond technical expertise, I'm deeply committed to mentoring
+            Beyond technical expertise, I m deeply committed to mentoring
             emerging developers, fostering growth, and sharing knowledge within
             the community. My foundation in web technologies, coupled with a
             keen interest in blockchain advancements, fuels my exploration into
